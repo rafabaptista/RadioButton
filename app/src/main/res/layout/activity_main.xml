@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="radiobutton.studio.com.radiobutton.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comida_preferida"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="200dp"
+        android:layout_height="130dp">
+
+        <RadioButton
+            android:id="@+id/radioLasanha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lasanha" />
+
+        <RadioButton
+            android:id="@+id/radioParmegiana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parmegiana" />
+
+        <RadioButton
+            android:id="@+id/radioMacarrao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Macarrão" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoEscolher"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Escolher"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textExibicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</LinearLayout>
